@@ -56,6 +56,7 @@ module.exports = (client) => {
       case "cargo_bay_extension":
       case "cargo":
       case "cb":
+      case "cargobayextension":
          return "cargobay";
       case "shipment_computer":
       case "shipmentcomputer":
@@ -64,6 +65,8 @@ module.exports = (client) => {
          return "computer";
       case "trade_boost":
       case "tboost":
+      case "tradeboost":
+
          return "tradeboost";
          //return "rush";
       case "trade_burst":
